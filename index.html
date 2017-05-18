@@ -36,7 +36,7 @@
 		<!-- Problem 2 -->
 		<script>
       document.write("");
-			document.write("<p>2. : To view the answer to number two please see the console in your developer tools</p>");
+			document.write("<p>2. : To view the answer to number 2-5 please see the console in your developer tools</p>");
       console.log("Here begins the answer to number 2");
 			for(var i = 1; i <= 100; i++)
 			{
@@ -54,8 +54,23 @@
 		
 		<!-- Problem 3 -->
 		<script>
-			
-      
+			function countBs(word)
+      {
+        var totalCount = 0;
+        for (var i = 0; i < word.length; i++)
+        {
+          if(word.charAt(i) === "B"){
+            totalCount++;
+          }
+        }
+        
+        return totalCount;
+      }
+      console.log(" ");
+      console.log("Here begins the answer to number 3");
+      console.log(" ");
+      console.log("Counting \"Bs\" in the follow phrase: Buns Bake Barely ");
+      console.log(countBs("Buns Bake Barely"));
 		</script>
 		
 		<!-- Problem 4 -->
