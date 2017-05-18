@@ -75,7 +75,22 @@
 		
 		<!-- Problem 4 -->
 		<script>
-			
+			function countChar(word, char)
+      {
+        var totalCount = 0;
+        for (var i = 0; i < word.length; i++)
+        {
+          if(word.charAt(i) === char){
+            totalCount++;
+          }
+        }
+        
+        return totalCount;
+      }
+      
+      console.log(" ");
+      console.log("Counting \"a\" which is given the function in the follow phrase: Buns Bake Barely ");
+      console.log(countChar("Buns Bake Barely", "a"));
 		</script>
 		
 		<!-- Problem 5 -->
